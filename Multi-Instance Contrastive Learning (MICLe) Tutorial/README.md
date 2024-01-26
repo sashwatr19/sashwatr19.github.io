@@ -12,7 +12,8 @@ The following external libraries are required to run the jupyter notebook:
 - numpy
 - matplotlib.pyplot
 - tensorflow
-
+- tensorflow datasets
+  
 Use requirements.txt to install via pip
 
 The MICLe.ipynb requires encodeutil.py to run. 
