@@ -4,17 +4,15 @@
 
 This project is a novel implementation of the Multi Instance Contrastive Learning (MICLe) Model in Keras and TensorFlow. MICLe.ipynb provides a tutorial on how to use MICLe. 
 
-## Installation
+## Dependencies 
 
 The following external libraries are required to run the jupyter notebook:
 
 - math
 - numpy
-- matplotlib.pyplot as plt
-- tensorflow as tf
+- matplotlib.pyplot
+- tensorflow
 
-They can all be installed via pip.
-
-## Dependencies 
+Use requirements.txt to install via pip
 
 The MICLe.ipynb requires encodeutil.py to run. 
