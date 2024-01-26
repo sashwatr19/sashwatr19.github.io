@@ -1,7 +1,7 @@
 # A Comparative Analysis of Machine Learning Methods
 
 This project explores the performance of various Machine Learning methods. The methods investigated are: Random Forest Classifier, Support Vector Machine (SVM), Logistic Regression and K-Nearest Neighbours (KNN).
-The project culminated in writing a research paper based on the findings of the code base we created. This was a group project.
+The project culminated in writing a research paper based on the findings of the code base we created.
 
 ## Dependencies 
 
