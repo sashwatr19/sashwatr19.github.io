@@ -16,4 +16,4 @@ The following external libraries are required to run the jupyter notebook:
   
 Use requirements.txt to install via pip
 
-The MICLe.ipynb requires encodeutil.py to run. 
+MICLe.ipynb requires encodeutil.py to run. 
