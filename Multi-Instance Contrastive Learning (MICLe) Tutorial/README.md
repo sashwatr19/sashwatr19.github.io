@@ -1,18 +1,31 @@
 # An Interactive Tutorial for Multi-Instance Contrastive Learning (MICLe)
 
-## General Info
+A from-scratch implementation of the Multi-Instance Contrastive Learning (MICLe) model from Azizi et al., [*"Big Self-Supervised Models Advance Medical Image Classification"* (2021)](https://arxiv.org/abs/2101.05224), built in TensorFlow/Keras.
 
-This project is an implementation of the Multi Instance Contrastive Learning (MICLe) Model in Keras and TensorFlow from scratch. MICLe.ipynb provides a tutorial on how to use MICLe. 
+MICLe is a self-supervised pretraining method for settings where a dataset contains multiple images of the same underlying case, for example, several views of the same pathology in medical imaging. It forms positive pairs from images of the same case and learns representations that are resilient to changes in view, lighting, and other variation, without requiring labels.
 
-## Dependencies 
+## What's inside
 
-The following external libraries are required to run the jupyter notebook:
+`MICLe.ipynb` is an interactive tutorial that:
+- explains the motivation and the MICLe algorithm, including contrastive loss.
+- implements the full pipeline in TensorFlow/Keras: bag-based data arrangement, a random-crop augmenter, an encoder, and a non-linear projection head.
+- builds MICLe as a custom `keras.Model` with a contrastive `train_step`, and trains it on a multi-view demonstration dataset (objects photographed from multiple angles, standing in for the multi-view medical imaging case).
 
-- numpy
-- matplotlib.pyplot
-- tensorflow
-- tensorflow datasets
-  
-Use requirements.txt to install via pip
+## Getting started
 
-MICLe.ipynb requires encodeutil.py to run. 
+Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+Open the notebook:
+```
+jupyter notebook MICLe.ipynb
+```
+
+`MICLe.ipynb` requires `encodeutil.py` (included), which defines the base encoder network. The demonstration dataset is included under `data/unlabeled_images/`, with one subfolder per "bag" (a set of images of the same object).
+
+## Dependencies
+- NumPy
+- Matplotlib
+- TensorFlow
