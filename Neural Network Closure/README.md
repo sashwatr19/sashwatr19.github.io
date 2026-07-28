@@ -12,13 +12,12 @@ Solving the equation on a fine grid is accurate but expensive while solving it o
 
 ## Repository contents
 
-- `burgers.ipynb` — model definition, training, and rollout/evaluation.
-- `data_gen.py` — dataset generation (SciPy, sequential).
-- `data_gen_torch.py` — dataset generation (PyTorch + torchdiffeq, batched).
-- `burgers.npz` — generated dataset (`u_ref`, `dudt_ref`, `u_coarse`).
-- `closure_cnn_derivative*.pt` — trained model weights.
-- `losses.npy` — training loss history.
-- Figures and animations (`*.png`, `*.gif`) — initial conditions, training curves, and trajectory comparisons.
+- `burgers.ipynb` -  model definition, training, and rollout/evaluation.
+- `data_gen.py` - dataset generation (SciPy, sequential).
+- `data_gen_torch.py` - dataset generation (PyTorch + torchdiffeq, batched).
+- `burgers.npz` - generated dataset (`u_ref`, `dudt_ref`, `u_coarse`).
+- `closure_cnn_derivative*.pt` - trained model weights.
+- `losses.npy` - training loss history.
 
 ## Getting started
 

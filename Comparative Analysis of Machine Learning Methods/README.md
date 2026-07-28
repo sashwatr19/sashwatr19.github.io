@@ -1,6 +1,6 @@
 # A Comparative Analysis of Machine Learning Methods
 
-A comparison of four classification methods — Random Forest, Support Vector Machine (SVM), Logistic Regression, and K-Nearest Neighbours (KNN) — on a multi-class prediction task, with an accompanying written report.
+A comparison of four classification methods, Random Forest, Support Vector Machine (SVM), Logistic Regression, and K-Nearest Neighbours (KNN),  on a multi-class prediction task, with an accompanying written report.
 
 ## Task and data
 
@@ -12,7 +12,7 @@ Each classifier is tuned via grid search with 10-fold cross-validation, then eva
 
 ## Findings
 
-Random Forest performed best (macro F1 ≈ 0.85), followed closely by KNN (≈ 0.82) and SVM (≈ 0.81), with Logistic Regression clearly weakest (≈ 0.69) — consistent with a linear model struggling on a non-linear, multi-class problem. The full methodology and results are discussed in the [project report](INST0060_Project_Report.pdf).
+Random Forest performed best (macro F1 ≈ 0.85), followed closely by KNN (≈ 0.82) and SVM (≈ 0.81), with Logistic Regression clearly weakest (≈ 0.69). Consistent with a linear model struggling on a non-linear, multi-class problem. The full methodology and results are discussed in the [project report](INST0060_Project_Report.pdf).
 
 ## Getting started
 
