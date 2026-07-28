@@ -1,6 +1,6 @@
 # An Interactive Tutorial for Multi-Instance Contrastive Learning (MICLe)
 
-A from-scratch implementation of the Multi-Instance Contrastive Learning (MICLe) model from Azizi et al., [*"Big Self-Supervised Models Advance Medical Image Classification"* (2021)](https://arxiv.org/abs/2101.05224), built in TensorFlow/Keras.
+A from-scratch implementation of the Multi-Instance Contrastive Learning (MICLe) model from Azizi et al., ["Big Self-Supervised Models Advance Medical Image Classification" (2021)](https://arxiv.org/abs/2101.05224), built in TensorFlow/Keras.
 
 MICLe is a self-supervised pretraining method for settings where a dataset contains multiple images of the same underlying case, for example, several views of the same pathology in medical imaging. It forms positive pairs from images of the same case and learns representations that are resilient to changes in view, lighting, and other variation, without requiring labels.
 
