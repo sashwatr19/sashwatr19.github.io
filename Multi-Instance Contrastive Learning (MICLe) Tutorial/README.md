@@ -8,7 +8,6 @@ This project is an implementation of the Multi Instance Contrastive Learning (MI
 
 The following external libraries are required to run the jupyter notebook:
 
-- math
 - numpy
 - matplotlib.pyplot
 - tensorflow
