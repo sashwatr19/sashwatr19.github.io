@@ -2,7 +2,7 @@
 
 ## General Info
 
-This project is a novel implementation of the Multi Instance Contrastive Learning (MICLe) Model in Keras and TensorFlow. MICLe.ipynb provides a tutorial on how to use MICLe. 
+This project is an implementation of the Multi Instance Contrastive Learning (MICLe) Model in Keras and TensorFlow from scratch. MICLe.ipynb provides a tutorial on how to use MICLe. 
 
 ## Dependencies 
 
