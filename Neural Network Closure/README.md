@@ -26,7 +26,9 @@ Generate the dataset (or use the included `burgers.npz`):
 python data_gen_torch.py
 ```
 
-Then open the notebook to train and evaluate:
+## Usage
+
+Use the notebook `burgers.ipynb` to train and evaluate:
 ```
 jupyter notebook burgers.ipynb
 ```

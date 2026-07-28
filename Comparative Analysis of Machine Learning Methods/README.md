@@ -20,8 +20,9 @@ Install dependencies:
 ```
 pip install -r requirements.txt
 ```
+## Usage
 
-Open the notebook:
+To recreate the analysis follow the notebook `Combined_code.ipynb`:
 ```
 jupyter notebook Combined_code.ipynb
 ```

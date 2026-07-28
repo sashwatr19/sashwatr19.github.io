@@ -18,7 +18,9 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Open the notebook:
+## Usage 
+
+Follow the tutorial using the notebook `MICLe.ipynb`:
 ```
 jupyter notebook MICLe.ipynb
 ```
